@@ -30,4 +30,7 @@ int main (){
         }
         cout << endl;
     }
+
+    
+
 }
