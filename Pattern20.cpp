@@ -3,7 +3,7 @@ using namespace std;
 int mian(){
 
     
-       // Hollow Pyramid
+       // Hollow Diamond  Pyramid
 
 //       * 
 //      * * 
