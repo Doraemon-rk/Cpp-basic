@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main (){
+
+    // Centered Full Diamond of Stars
+
+//     *
+//    * *
+//   * * *
+//  * * * *
+//   * * *
+//    * *
+//     *
+ 
+ int i, j, s;
+ for (i = 1; i <= 4; i++) {
+ for (s = i; s <= 4; s++)
+ cout << " ";
+ for (j = 1; j <= i; j++)
+ cout << "* ";
+ cout << endl;
+ }
+ for (i = 3; i >= 1; i--) {
+ for (s = 3; s >= i; s--)
+ cout << " ";
+ for (j = 1; j <= i; j++)
+ cout << " *" ;
+ cout << endl;
+ }
+
+
+}
